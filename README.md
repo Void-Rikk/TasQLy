@@ -30,7 +30,7 @@ cd TasQLy
 docker compose up --build
 ```
 
-The app will be available at `http://localhost:80`, and the GraphQL API at `http://localhost:3000/graphql` (proxied through Nginx) or directly at `http://localhost:3000/graphql`.
+The app will be available at `http://localhost:80`, and the GraphQL API at `http://localhost/graphql` (proxied through Nginx) or directly at `http://localhost:3000/graphql`.
 
 ### Local Development
 
