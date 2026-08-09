@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:Void-Rikk/TasQLy-frontend.git
+[submodule "backend"]
+	path = backend
+	url = git@github.com:Void-Rikk/TasQLy-backend.git
