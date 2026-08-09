@@ -25,12 +25,12 @@ A pet project for practicing GraphQL, NestJS, Prisma, and Feature-Sliced Design.
 ### With Docker Compose (recommended)
 
 ```bash
-git clone --recurse-submodules https://github.com/your-username/task-tracker.git
-cd task-tracker
+git clone --recurse-submodules https://github.com/Void-Rikk/TasQLy.git
+cd TasQLy
 docker compose up --build
 ```
 
-The app will be available at `http://localhost`, and the GraphQL API at `http://localhost/graphql` (proxied through Nginx) or directly at `http://localhost:3000/graphql`.
+The app will be available at `http://localhost:80`, and the GraphQL API at `http://localhost:3000/graphql` (proxied through Nginx) or directly at `http://localhost:3000/graphql`.
 
 ### Local Development
 
