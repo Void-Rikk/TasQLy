@@ -20,6 +20,33 @@ A pet project for practicing GraphQL, NestJS, Prisma, and Feature-Sliced Design.
 - Docker / Docker Compose
 - Nginx (serves the frontend, proxies `/graphql` to the backend)
 
+## Gallery
+
+![home](./assets/home.png)
+<p align="center">
+    Home
+</p>
+
+![home light](./assets/home-light.png)
+<p align="center">
+    Home Light
+</p>
+
+![home ru locale](./assets/home-ru-locale.png)
+<p align="center">
+    Home With Russian Locale
+</p>
+
+![home task form](./assets/home-with-task-form.png)
+<p align="center">
+    Home With Task Form Expanded
+</p>
+
+![home tag form](./assets/home-with-tag-form.png)
+<p align="center">
+    Home With Tag Form Expanded
+</p>
+
 ## Getting Started
 
 ### With Docker Compose (recommended)
