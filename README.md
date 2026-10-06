@@ -1,6 +1,6 @@
 # TasQLy
 
-A pet project for practicing GraphQL, NestJS, Prisma, and Feature-Sliced Design. A simple task tracker with tags, priorities, and statuses.
+A pet project for practicing GraphQL, NestJS, Prisma, JWT and Feature-Sliced Design. A simple task tracker with tags, priorities, and statuses.
 
 ## Stack
 
@@ -35,6 +35,21 @@ A pet project for practicing GraphQL, NestJS, Prisma, and Feature-Sliced Design.
 ![home ru locale](./assets/home-ru-locale.png)
 <p align="center">
     Home With Russian Locale
+</p>
+
+![auth](./assets/auth.png)
+<p align="center">
+    Auth
+</p>
+
+![auth light](./assets/auth-light.png)
+<p align="center">
+    Auth Light
+</p>
+
+![auth en locale](./assets/auth-en-locale.png)
+<p align="center">
+    Auth With English Locale
 </p>
 
 ![home task form](./assets/home-with-task-form.png)
@@ -83,3 +98,4 @@ npm run dev
 - Apollo Client: normalized cache, manual cache updates after mutations (`cache.modify`, `writeFragment`, `evict`)
 - Feature-Sliced Design: layer separation, public API of slices, slot/composition pattern for cards with actions
 - Docker: multi-stage builds, docker-compose with multiple services, Nginx as a reverse proxy for an SPA
+- JWT Auth: access and refresh token
