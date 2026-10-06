@@ -20,8 +20,12 @@ services:
     container_name: backend
     restart: unless-stopped
     environment:
+      JWT_SECRET: PZvTt54N3uiTnsNpuk9GY1zobRL47jHLHrUQrr3zls3
+      JWT_ACCESS_TOKEN_TTL: 15m
+      JWT_REFRESH_TOKEN_TTL: 7d
       DATABASE_URL: postgresql://postgres:postgres@postgres:5432/tasktracker?schema=public
       NODE_ENV: production
+      FRONTED_URL: http://frontend
     depends_on:
       - postgres
     ports:
